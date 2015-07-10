@@ -1,0 +1,51 @@
+@font-face {
+	font-family: lato;
+	src : url("../images/fonts/Lato-Regular.ttf");
+}
+html,body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	font-family: lato;
+}
+body {}
+ul {
+	list-style: none;
+}
+.container {
+	margin: 0;
+	padding : 0;
+	height: 100%;
+}
+.sideNav {	
+	float: left;
+	width: 172px;
+	height: 100%;
+	background-color: #DEFAF5;	
+	overflow-y : scroll;
+	border-right: 1px solid black;
+	
+}
+.content {
+	padding: 0 14px 0 13px;
+	float: right;
+	width: 86%;
+	height: 100%;	
+	overflow-y : scroll;
+	background-image: url("../images/bg-image.jpg");
+	border-right: 1px solid #bbb; */
+	box-shadow: 0 0 20px #ccc inset;
+	-webkit-box-shadow: 0 0 20px #ccc inset;
+	-moz-box-shadow: 0 0 20px #ccc inset;
+}
+.content .module {
+	margin: 10px 150px 10px 30px;
+	width: 800px;
+}
+.logo {
+	background-image: url("../images/logo.gif");
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	background-repeat: round;
+}

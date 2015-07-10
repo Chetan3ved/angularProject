@@ -1,0 +1,28 @@
+Name : Angular-setup
+Version : 2.0.0 (Kunlai)
+Description : 	Template folder structure using RequireJS and AngularJS.
+		The purpose of this framework is to scaffold a quick project with production process built-in. 
+		Suit for small or medium size project.
+
+Goal :		- RequireJS and AngularJS built-in.
+		- Unit test with Karma and E2E test with Protractor.
+		- Deverloper's help tools such as grunt watch, JSLint, LiveReload.
+		- CSS compiler(Sass).
+
+Concept :	1. Must be lightweight. This should just be a scaffolder framework with minimum 
+		   effort to use. 
+		2. No global install. Once doing npm install everything should be 
+		   installed locally.
+
+Version History :
+--- 1.0.0 --- Goldbranch
+1/4/2015	WIP setting up requirejs for all angular codes
+1/10/2015   	Add ng route, pages and some sample navigation
+1/29/2015   	Add grunt jshint/sass/watch
+2/1/2015	Add grunt copy/concat
+
+--- 2.0.0 --- Kunlai
+3/22/2015   	Revamp folder structure
+		Add minification process
+		Add distribution process
+		Fix double download of angular script

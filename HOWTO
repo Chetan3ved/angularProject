@@ -1,0 +1,17 @@
+How to start server :
+1.	Go to root folder (angular-setup).
+2.	To run development mode, type 
+		sh tools/start-server.sh
+	This will use "public" folder as starting point.
+
+	To run production mode, type 
+    	sh tools/start-server.sh dist
+    This will use "target" folder as starting point.
+3.	Type 	http://localhost:8080	in browser for development.
+			http://localhost:8083	browser for production.
+
+How to run production(distribution) process
+1.	Go to root folder (angular-setup).
+2.	Compile development(public) folder to production(target) folder, type
+		sh tools/r.sh
+3.	Wait until the process complete then you can start server using production command(see above)

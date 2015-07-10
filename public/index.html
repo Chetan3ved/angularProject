@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html id="myApp">
+	<head>
+		<!-- <script src="scripts/angular.js"></script> -->
+		<link rel="stylesheet" href="stylesheets/app.css">
+		<link rel="stylesheet" href="stylesheets/compile.css">
+	</head>
+	<body ng-controller="masterCtrl">
+		{{name}}
+		<span class="name" id="name">myName</span>
+		<ul>
+			<li ng-repeat="link in links">
+				<a ng-href="{{link.url}}" id="{{link.id}}">{{link.label}}</a>
+			</li>
+		</ul>		
+		<div ng-view=""></div>
+
+
+		<!-- scripts loading-->
+		<!--<script type="text/javascript" src="node_modules/angular/angular.js"></script>-->
+		<!--<script type="text/javascript" src="node_modules/angular-route/angular-route.js"></script>-->
+
+		 <script src="node_modules/requirejs/require.js" data-main="scripts/bootstrap.js"></script>
+		 <!--<script src="node_modules/requirejs/require.js" data-main="scripts/main-built.js"></script>-->
+	</body>
+</html>
